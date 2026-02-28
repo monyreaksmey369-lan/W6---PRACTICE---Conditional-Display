@@ -82,6 +82,7 @@ body {
   border-radius: 15px;
   margin: 1rem auto;
   padding: 0.3rem;
+
 }
 
 .scores h1 {
@@ -108,4 +109,23 @@ body {
 
 .warning {
   color: var(--secondary-color);
+}
+.static {
+  background: #fff;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+  color: black;
+  margin: 0 5px 5px;
+}
+.static span {
+  font-size: 12px;
+  display: block;
+  color: gray;
+  margin-bottom: -10px;
+}
+.static p {
+  font-size: 22px;
+  margin-bottom: 5px;
 }
